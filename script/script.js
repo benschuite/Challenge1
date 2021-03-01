@@ -31,12 +31,12 @@ var chart2 = new Chart(ctx2, {
     type: 'line',
 
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May'],
+        labels: ['januari', 'februari', 'maart', 'april', 'mei'],
         datasets: [{
         	label: 'Snelheid',
             backgroundColor: gradientStroke,
             borderColor: gradientStroke,
-            data: [0, 8, 13, 14, 16]
+            data: [0, 11, 15, 22, 27]
         }]
     },
 
