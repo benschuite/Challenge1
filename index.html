@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<title>Dashboard Space X</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="Style/style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	</head>
+  	<body>
+      <header>
+        <img src="images/logo.png" alt="Logo Space X">
+        <h1>Dashboard</h1>
+        <p>Welcome aboard!</p>
+      </header>	
+
+      <section class="statistieken">
+    		<article class="flex-container">
+      		<article class="flex-item">
+       			<h2>Brandstof <i class="fas fa-gas-pump fa-lg"></i></h2>
+            <canvas id="Brandstof"></canvas>
+      		</article>
+
+          <article class="flex-item">
+            <h2>Voorraden <i class="fas fa-utensils fa-lg"></i></h2>
+              <label>Voedsel</label>
+                <div id="voedsel">
+                  <div></div>
+                </div>
+
+              <label>Water</label>
+                <div id="water">
+                  <div></div>
+                </div>
+          </article>
+
+          <article class="flex-item snelheid">
+            <h2>Snelheid <i class="fas fa-tachometer-alt fa-lg"></i></h2>
+            <canvas id="snelheid"></canvas>
+          </article>
+    
+       </article>
+  	</section>
+
+
+  		
+  		
+    <script src="script/script.js"></script>
+  	</body>
+</html>

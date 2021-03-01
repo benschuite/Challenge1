@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana ;
+  font-weight: 400;
+  background-image: linear-gradient(to bottom right, #404046, #28282F);
+  color: white;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+/* Header */
+header img{
+  width: 80%;
+}
+
+header h1{
+  font-family: Verdana ;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+header p{
+  color: #1BADCF;
+
+}
+
+h2 i{
+  color: #1BADCF;
+  float: right;
+}
+
+
+
+#voedsel {
+  background-color: #575B62;
+  margin-bottom: 20px;
+  margin-top: 5px;
+
+}
+
+#voedsel>div {
+  background-image: linear-gradient(to right, #1BADCF , #21D27F);
+  width: 80%;
+  height: 20px;
+}
+
+#water {
+  background-color: #575B62;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#water>div {
+  background-image: linear-gradient(to right, #1BADCF , #21D27F);
+  width: 70%;
+  height: 20px;
+}
+
+
+/* flexbox layout */
+.flex-container{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+ 
+}
+
+.flex-item{
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background-color: #3E434B;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* breakpoint 1 */
+@media screen and (min-width: 768px) {
+
+  header img{
+    width: 50%;
+  }
+
+  .flex-item{
+    width: 48%;  
+    margin: 1%; 
+  }
+
+  .snelheid{
+    width: 100%; 
+    margin: 10px; 
+ 
+  }
+
+ 
+}
+
+/* breakpoint 2 */
+@media screen and (min-width: 1023px) {
+  header img{
+    width: 40%;
+  }
+
+  
+
+ 
+}
+
+/* breakpoint 3 */
+@media screen and (min-width: 1280px) {
+  header img{
+    width: 30%;
+  }
+
+   .flex-item{
+    width: 31%;  
+  }
+
+
+
+
+}
+
+
